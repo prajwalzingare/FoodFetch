@@ -1,0 +1,40 @@
+nav {
+    background-color: #1f2937;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+    max-width: 1280px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link img {
+    height: 1.75rem;
+    margin-right: 0.75rem;
+}
+
+.nav-link span {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 1.9rem;
+    color: #ffff;
+    font-weight: 500;
+}
