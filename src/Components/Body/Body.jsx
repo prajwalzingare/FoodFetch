@@ -1,5 +1,6 @@
 import React from "react";
 import "./Body.css";
+import { RestaurantCard } from "Components";
 function Body() {
   return (
     <div>
@@ -10,9 +11,11 @@ function Body() {
           <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
         </button>
       </div>
-      <div className="card-list"></div>
+      <div className="card-list">
+        <RestaurantCard />
+      </div>
     </div>
   );
 }
 
-export default Body;
+export { Body };
